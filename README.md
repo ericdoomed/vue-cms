@@ -18,6 +18,7 @@
  + 为 购物车 小图标 ，添加 如下样式 `mui-icon mui-icon-extra mui-icon-extra-cart`
 3. 要在 中间区域放置一个 router-view 来展示路由匹配到的组件
 
+![image](https://github.com/ericdoomed/vue-cms/blob/master/src/lib/pics/%E9%A6%96%E9%A1%B5.PNG)
 ## 改造 tabbar 为 router-link
 
 ## 设置路由高亮
@@ -41,6 +42,7 @@
 2. 使用 vue-resource 获取数据
 3. 渲染真实数据
 
+![image](https://github.com/ericdoomed/vue-cms/blob/master/src/lib/pics/%E8%B5%84%E8%AE%AF.PNG)
 ## 实现 新闻资讯列表 点击跳转到新闻详情
 1. 把列表中的每一项改造为 router-link,同时，在跳转的时候应该提供唯一的Id标识符
 2. 创建新闻详情的组件页面  NewsInfo.vue
@@ -101,6 +103,7 @@
 2. 根据`lazy-load`的使用文档，尝试使用
 3. 渲染图片列表数据
 
+![image](https://github.com/ericdoomed/vue-cms/blob/master/src/lib/pics/%E5%9B%BE%E7%89%87.PNG)
 ### 实现了 图片列表的 懒加载改造和 样式美化
 
 ## 实现了 点击图片 跳转到 图片详情页面
@@ -116,6 +119,9 @@
 
 ## 绘制 商品列表 页面基本结构并美化
 
+![image](https://github.com/ericdoomed/vue-cms/blob/master/src/lib/pics/%E5%95%86%E5%93%81.PNG)
+![image](https://github.com/ericdoomed/vue-cms/blob/master/src/lib/pics/%E8%B4%AD%E4%B9%B0.PNG)
+![image](https://github.com/ericdoomed/vue-cms/blob/master/src/lib/pics/%E8%B4%AD%E7%89%A9%E8%BD%A6.PNG)
 ## 尝试在手机上 去进行项目的预览和测试
 1. 要保证自己的手机可以正常运行；
 2. 要保证 手机 和 开发项目的电脑 处于同一个 WIFI 环境中，也就是说 手机 可以 访问到 电脑的 IP
